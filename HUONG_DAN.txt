@@ -1,0 +1,25 @@
+HƯỚNG DẪN CÀI ĐẶT THEME PINKIE CHO SUMATRAPDF
+===========================================
+
+Để chia sẻ giao diện Pinkie siêu dễ thương này sang máy tính khác, bạn chỉ cần hướng dẫn bạn bè làm theo các bước đơn giản sau:
+
+BƯỚC 1: MỞ FILE CÀI ĐẶT NÂNG CAO CỦA SUMATRAPDF
+---------------------------------------------
+1. Mở ứng dụng SumatraPDF trên máy tính cần cài đặt.
+2. Nhấp vào biểu tượng Menu (3 dấu gạch ngang góc trên bên trái) -> Chọn Settings (Cài đặt) -> Chọn Advanced Options... (Tùy chọn nâng cao...).
+3. Thao tác này sẽ tự động mở file cấu hình "SumatraPDF-settings.txt" bằng Notepad hoặc phần mềm soạn thảo văn bản mặc định.
+
+BƯỚC 2: ÁP DỤNG THEME PINKIE
+----------------------------
+1. Mở file "theme_settings.txt" (được đính kèm trong thư mục này).
+2. Sao chép (Copy) các thông số cài đặt tương ứng rồi dán đè/thay thế vào các mục trong file cấu hình "SumatraPDF-settings.txt":
+   - Tìm và thay thế các dòng cấu hình chung ở phần đầu (MainWindowBackground, NoHomeTab, ShowStartPage, SidebarDx, TreeFontName, TreeFontSize, Theme).
+   - Thay thế toàn bộ khối `FixedPageUI [ ... ]` bằng cấu hình của Pinkie.
+   - Thay thế toàn bộ khối `Annotations [ ... ]` bằng cấu hình của Pinkie.
+   - Thay thế hoặc thêm vào khối `Themes [ ... ]` định nghĩa theme Pinkie.
+3. Nhấn Ctrl + S để lưu lại file "SumatraPDF-settings.txt".
+
+BƯỚC 3: HOÀN TẤT
+----------------
+- Khởi động lại ứng dụng SumatraPDF để tận hưởng giao diện màu trắng hồng pastel phong cách kawaii cực kỳ tối giản và đáng yêu!
+- Mẹo nhỏ: Bạn có thể nhấn phím tắt F12 để ẩn/hiện thanh mục lục (TOC) đã được tinh chỉnh kích thước chữ to rõ ràng.

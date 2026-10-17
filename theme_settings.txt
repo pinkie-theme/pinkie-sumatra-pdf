@@ -1,0 +1,42 @@
+# Pinkie Theme for SumatraPDF (Kawaii & Minimalist)
+# Copy các giá trị dưới đây và thay thế vào file SumatraPDF-settings.txt tương ứng
+
+# 1. Các thiết lập chung (ở phần đầu file)
+MainWindowBackground = #fff0f3
+NoHomeTab = true
+ShowStartPage = false
+SidebarDx = 320
+TreeFontName = Segoe UI
+TreeFontSize = 11
+Theme = Pinkie
+
+# 2. Cấu hình màu nền trang đọc và lựa chọn văn bản (Tìm mục FixedPageUI)
+FixedPageUI [
+	TextColor = #5c3c43
+	BackgroundColor = #fff5f6
+	SelectionColor = #ffb3c1
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+	InvertColors = false
+	HideScrollbars = false
+]
+
+# 3. Cấu hình màu ghi chú/đánh dấu (Tìm mục Annotations)
+Annotations [
+	HighlightColor = #ffccd5
+	UnderlineColor = #ff4d6d
+	SquigglyColor = #ff007f
+	StrikeOutColor = #ffb3c1
+]
+
+# 4. Định nghĩa Theme Pinkie (Tìm mục Themes [ ... ])
+Themes [
+	[
+		Name = Pinkie
+		TextColor = #5c3c43
+		BackgroundColor = #fff5f6
+		ControlBackgroundColor = #ffe5ec
+		LinkColor = #ff758f
+		ColorizeControls = true
+	]
+]
